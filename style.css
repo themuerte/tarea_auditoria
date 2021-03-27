@@ -12,6 +12,12 @@ footer{
     border:  1px solid #333333;
 
     margin: 0 auto;
+    float: center;
+}
+
+footer > h4{
+    float: center;
+    text-align: center;
 }
 
 /*efecto 3d  en el h1*/
@@ -59,6 +65,10 @@ h1{
 
 /*contenido*/
 
+h2{
+    text-transform: capitalize;
+}
+
 .texto{
     width: 1210px;
     min-height: 930px;
@@ -69,5 +79,50 @@ h1{
     background: white;
     padding: 20px;
     border: 1px solid #ddd;
+
 }
 
+img{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 450px;
+    height: 250px;
+}
+
+#img1{
+    padding-right: 5px;
+}
+
+#img2{
+    
+    margin-top: 10px;
+}
+
+#img3{
+    padding-right: 100px;
+}
+
+#competencia{
+    display: block;
+    float: right;
+    
+}
+
+#perfil{
+    float: right;
+    margin-right: 50px; 
+    padding-right: 70px;
+
+}
+
+#caracteristicas{
+    padding-bottom: 70px;
+    float: right;
+    padding-right: 420px;
+
+}
+
+#caracteristicas > hr{
+    width: 500px;   
+
+}
